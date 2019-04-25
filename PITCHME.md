@@ -49,6 +49,15 @@
   </table>
 </div>
 ---
+```php
+<?php
+echo "hello";
+```
+
+// スクリプトで実行：
+```
+php hello.php
+```
 ---
 ---
 ---

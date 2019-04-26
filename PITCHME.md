@@ -141,26 +141,47 @@ http://localhost:8000/buildinserver.php
 ```
 @size[0.6em](※上記プログラムには深刻な脆弱性があります)
 ---
+実行結果、こんな感じ。  
 ![alt](assets/image/img01.png)
-![alt](assets/image/img01.png)  
-<img src="assets/image/img01.png">
-aaa
 ---
+### 対話形式　
 ---
+コンソールにて ```php -a``` を入力すると、  
+対話形式で実行できる。
+```
+> php -a
+Interactive shell
+
+php > echo "hello";
+hello
+```
+
+PHP 5.1.0 以降で使用可。  
+タブ補完が効く。  
 ---
+### ブラウザから使用１
+### Ideone
 ---
-## 対話形式　
+Ideone というサービスにて、  
+ブラウザに PHPのコードを入力して実行できる。  
+https://ideone.com/
+　  　    
+![alt](assets/image/img02.png)
+　
+速度はあんまり早くない。
 ---
+### ブラウザから使用２
+### codepad
 ---
----
----
----
----
----
----
----
----
----
+codepad というサービスにて、  
+ブラウザに PHPのコードを入力して実行できる。  
+http://codepad.org/
+　  　    
+![alt](assets/image/img03.png)
+　
+結構サクサク動く。
+ローカルにPHP入ってない場合は、
+いいかもしんない。
 ---
 こんな感じで、お手軽にPHP使う事もできます。
 ---

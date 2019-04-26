@@ -143,6 +143,7 @@ http://localhost:8000/buildinserver.php
 ---
 ![alt](assets/image/img01.png)
 ![alt](assets/image/img01.png)  
+<img src="assets/image/img01.png">
 ---
 ---
 ---

@@ -83,23 +83,56 @@ PHPをお手軽に使う方法について
 ---
 ### コンソール
 ---
----
+ファイル：「 console.php 」
 ```php
 <?php
-echo "hello";
+$message = "Hello World";
+
+echo $message;
 ```
 
-// スクリプトで実行：
+コンソールより実行。
 ```
-php hello.php
+>php console.php
+Hello World
 ```
----
----
 ---
 ## ビルトインサーバ
 ---
-ApacheやNginxといった
-Webサーバを立てずに稼動させる。
+ApacheやNginxといった  
+Webサーバを用意せず、
+PHP付属の物を使う。
+---
+起動：```php -S localhost:8000```  
+終了：```Ctrl + C```
+
+
+以下のように起動すると、外部からアクセスできる。
+```
+php -S 0.0.0.0:8000
+```
+---
+## 例
+ファイル名：「buildinserver.php」
+```php
+<?php
+var_dump($_POST["textbox01"]);
+?>
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8"></head>
+<body>
+  <form action="" method="POST">
+    <input type="text" name="textbox01" value="<?php echo $_POST["textbox01"]?>">
+    <input type="submit" value="submit!!">
+  </form>
+</body>
+</html>
+```
+```
+php -S localhost:8000
+```
+※上記プログラムには深刻な脆弱性があります
+---
 ---
 ---
 ---

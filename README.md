@@ -4,5 +4,4 @@ https://gitpitch.com/kakisoft/UsePHPLightly/
 
 　    
 [Fukuoka.php](https://fukuokaphp.connpass.com/)様主催のイベント
-『Fukuoka.php Vol.29』にてLTさせて頂いたスライドです。    
-https://fukuokaphp.connpass.com/event/128385/
+『[Fukuoka.php Vol.29](https://fukuokaphp.connpass.com/event/128385/)』にてLTさせて頂いたスライドです。    

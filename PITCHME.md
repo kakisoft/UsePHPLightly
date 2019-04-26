@@ -139,7 +139,6 @@ php -S localhost:8000
 ```
 http://localhost:8000/buildinserver.php
 ```
-@size[0.6em](※上記プログラムには深刻な脆弱性があります)
 ---
 実行結果、こんな感じ。  
 ![alt](assets/image/img01.png)

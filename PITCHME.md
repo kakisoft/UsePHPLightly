@@ -115,6 +115,7 @@ Ctrl + C
 　  
 以下のように起動すると、外部からアクセスできる。
 ```
+＜起動（外部からアクセス可）＞
 php -S 0.0.0.0:8000
 ```
 ---
@@ -140,7 +141,7 @@ http://localhost:8000/buildinserver.php
 ```
 @size[0.5em](※上記プログラムには深刻な脆弱性があります)
 ---
-![alt](image/img01.png)
+![alt](assets/image/img01.png)
 ---
 ---
 ---

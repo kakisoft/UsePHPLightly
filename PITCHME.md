@@ -95,7 +95,7 @@ echo $message;
 
 コンソールより実行。
 ```
->php console.php
+$ php console.php
 Hello World
 ```
 ---
@@ -149,7 +149,7 @@ http://localhost:8000/buildinserver.php
 コンソールにて ``` php -a ``` を入力すると、  
 対話形式で実行できる。
 ```
-> php -a
+$ php -a
 Interactive shell
 
 php > echo "hello";

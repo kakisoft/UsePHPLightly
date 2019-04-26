@@ -179,7 +179,7 @@ http://codepad.org/
 　  　    
 ![alt](assets/image/img03.png)
 　
-結構サクサク動く。
+結構サクサク動く。  
 ローカルにPHP入ってない場合は、
 いいかもしんない。
 ---
